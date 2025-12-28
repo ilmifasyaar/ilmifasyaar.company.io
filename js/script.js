@@ -1,4 +1,4 @@
-const menuToggle = document.querySelector('.menu-toggle input');
+const menuToggle = document.querySelector ('.menu-toggle input');
 const nav = document.querySelector('nav ul');
 
 menuToggle.addEventListener('click', function() {
@@ -38,4 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
     radios[index].checked = true;
   });
 
+});
+
+
+AOS.init({
+  easing: "ease-out-cubiq",
 });
