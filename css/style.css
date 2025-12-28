@@ -558,28 +558,39 @@ input[type='radio'] {
   nav ul {
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 40%;
+    width: 30%;
     top: 80px;
-    right: 210px;
+    right: 500px;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
   }
   .hero {
     width: 100%;
     height: 800px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 250px;
   }
   .image {
     background-size: 1100px;
     width: 600px;
     height: 800px;
-    margin-left: 73px;
-    margin-right: 73px;
   }
   .container-satu {
     padding: 80px;
+  }
+  .container-satu h1 {
+    margin-top: -10px;
   }
   .container-satu p {
     font-size: large;
     font-weight: 500;
     text-align: justify;
+  }
+  .container-dua {
+    margin-top: -150px;
+    margin-bottom: -100px;
   }
   .bckgrnd-1 {
     width: 500px;
@@ -603,9 +614,31 @@ input[type='radio'] {
     border-radius: 15px;
   }
   .container-tiga {
-    width: 500px;
-    margin: 100px auto;
+    background-color: #e7dddd;
+    width: 100%;
+    height: 185rem;
+    margin: -5px auto;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+  .bckgrnd-1 {
+    width: 600px;
+    height: 920px;
+    margin: 25px auto;
+    border-radius: 15px;
+  }
+  .bckgrnd-2 {
+    width: 600px;
+    height: 940px;
+    margin: 25px auto;
+    border-radius: 15px;
+  }
+  .bckgrnd-3 {
+    width: 600px;
+    height: 920px;
+    margin: 25px auto;
+    border-radius: 15px;
   }
   .card .header-1 {
     height: 750px;
@@ -628,6 +661,56 @@ input[type='radio'] {
   .content {
     width: 400px;
     text-align: justify;
+  }
+  .footer {
+    height: max-content;
+    background-color: #767474;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ig a {
+    background-size: 40px;
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: large;
+    margin-top: 30px;
+    color: #bd0502;
+  }
+
+  .ig a:hover {
+    color: #000;
+  }
+
+  .create a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: -40px;
+    color: #bd0502;
+  }
+
+  .youtube a {
+    background-size: 40px;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: large;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #bd0502;
+  }
+
+  .youtube a:hover {
+    color: #000;
   }
 }
 
@@ -719,7 +802,7 @@ input[type='radio'] {
   }
   .bckgrnd-2 {
     width: 300px;
-    height: 620px;
+    height: 640px;
     margin: 25px auto;
     border-radius: 15px;
   }
@@ -760,7 +843,7 @@ input[type='radio'] {
     background-repeat: no-repeat;
   }
   .content {
-    width: 195px;
+    width: 200px;
     margin: 5px auto;
     padding: -10px;
   }
